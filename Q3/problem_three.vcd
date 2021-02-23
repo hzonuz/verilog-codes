@@ -1,0 +1,89 @@
+$date
+	Mon Jan 18 21:35:31 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module problem_three_tb $end
+$var wire 8 ! out [7:0] $end
+$var reg 8 " a [7:0] $end
+$var reg 8 # b [7:0] $end
+$var reg 2 $ s [1:0] $end
+$scope module p3 $end
+$var wire 8 % a [7:0] $end
+$var wire 8 & b [7:0] $end
+$var wire 2 ' s [1:0] $end
+$var wire 8 ( out3 [7:0] $end
+$var wire 8 ) out2 [7:0] $end
+$var wire 8 * out1 [7:0] $end
+$var wire 8 + out0 [7:0] $end
+$var wire 8 , out [7:0] $end
+$scope module f0 $end
+$var wire 8 - a [7:0] $end
+$var wire 8 . b [7:0] $end
+$var wire 8 / out [7:0] $end
+$upscope $end
+$scope module f1 $end
+$var wire 8 0 a [7:0] $end
+$var wire 8 1 b [7:0] $end
+$var wire 8 2 out [7:0] $end
+$upscope $end
+$scope module f2 $end
+$var wire 8 3 a [7:0] $end
+$var wire 8 4 b [7:0] $end
+$var wire 8 5 out [7:0] $end
+$upscope $end
+$scope module f3 $end
+$var wire 8 6 a [7:0] $end
+$var wire 8 7 b [7:0] $end
+$var wire 8 8 out [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1110000 8
+b10111 7
+b101101 6
+b11101001 5
+b10111 4
+b101101 3
+b1011011 2
+b10111 1
+b101101 0
+b10111001 /
+b10111 .
+b101101 -
+b10111001 ,
+b10111001 +
+b1011011 *
+b11101001 )
+b1110000 (
+b0 '
+b10111 &
+b101101 %
+b0 $
+b10111 #
+b101101 "
+b10111001 !
+$end
+#20
+b1011011 !
+b1011011 ,
+b1 $
+b1 '
+#40
+b11101001 !
+b11101001 ,
+b10 $
+b10 '
+#60
+b1110000 !
+b1110000 ,
+b11 $
+b11 '
+#80

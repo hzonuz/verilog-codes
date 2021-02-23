@@ -1,0 +1,38 @@
+$date
+	Mon Jan 18 18:02:39 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module problem_two_tb $end
+$var wire 8 ! s [7:0] $end
+$var wire 1 " of $end
+$var reg 8 # a [7:0] $end
+$var reg 8 $ b [7:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b101111 $
+b1010 #
+0"
+b111001 !
+$end
+#20
+1"
+b11000110 !
+b1010001 $
+b1110101 #
+#40
+b11010 !
+b10001111 $
+b10001011 #
+#60
+0"
+b10110101 !
+b11000101 $
+b11110000 #
+#80
